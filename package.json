@@ -1,5 +1,5 @@
 {
-  "name": "@tincik-j/mui-daterange-picker-plus",
+  "name": "@tincik.j/mui-daterange-picker-plus",
   "private": false,
   "version": "1.0.8",
   "declaration": true,
@@ -24,7 +24,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/miyushan/mui-daterange-picker-plus.git"
+    "url": "git+https://github.com/miyushan/mui-daterange-picker-plus.git"
   },
   "homepage": "https://mui-daterange-picker-plus-playground.vercel.app/demo",
   "dependencies": {
