@@ -30,7 +30,6 @@ export const Day: React.FunctionComponent<DayProps> = ({
 }: DayProps) => {
   const theme = useTheme();
   theme.palette.primary.main = "#000000";
-  theme.palette.primary.light = "#F7F5F4";
   return (
     <Box
       sx={{
@@ -51,7 +50,7 @@ export const Day: React.FunctionComponent<DayProps> = ({
         color="primary"
         sx={{
           ":hover": {
-            backgroundColor: alpha(theme.palette.primary.light, 0.2),
+            backgroundColor: alpha(theme.palette.primary.main, 0.2),
           },
           borderRadius: "8px",
           height: "36px",
