@@ -29,6 +29,8 @@ export const Day: React.FunctionComponent<DayProps> = ({
   hideOutsideMonthDays = true,
 }: DayProps) => {
   const theme = useTheme();
+  theme.palette.primary.main = "#000000";
+  theme.palette.primary.light = "#F7F5F4";
   return (
     <Box
       sx={{

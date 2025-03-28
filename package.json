@@ -1,7 +1,7 @@
 {
   "name": "@tincik.j/mui-daterange-picker-plus",
   "private": false,
-  "version": "1.0.8",
+  "version": "1.0.9",
   "declaration": true,
   "outDir": "./",
   "include": [
